@@ -1,0 +1,459 @@
+body {
+    background: #f5d9d5;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+main {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 30px;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace
+}
+
+header h1 {
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h4 {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h5 {
+    color: #EA1C2C;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+#Sonic,
+#DITO,
+#TOTAL {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+#ModalLabel {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.modal-header {
+    background-color: black;
+    color: #EA1C2C;
+}
+
+#mainnav {
+    font-size: 1.0rem;
+    font-weight: 100;
+}
+
+#mainnav .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#mainnav .nav-link {
+    color: white;
+}
+
+#mainnav .nav-link:hover {
+    color: #EA1C2C;
+}
+
+.main-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+
+#maintext .font1 {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+#maintext .font2 {
+    font-size: 1.0rem;
+    text-align: justify;
+}
+
+span {
+    color: #EA1C2C;
+    font-weight: 700;
+}
+
+
+
+.Qualifications {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #fca311;
+}
+
+.Qualifications:hover {
+    background-color: white;
+    transition: 1s;
+}
+
+.Education {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+
+.Education:hover {
+    background-color: white;
+    transition: 1s;
+}
+
+.Work {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgb(105, 219, 154);
+}
+
+.Work:hover {
+    background-color: white;
+    transition: 1s;
+}
+
+footer {
+    background-color: black;
+}
+
+footer span {
+    font-size: 1.0rem;
+}
+
+#phone,
+#email,
+#socmed {
+    color: white;
+}
+
+#phone p {
+    color: #EA1C2C;
+    font-size: 1.0rem;
+}
+
+#email p {
+    color: #EA1C2C;
+    font-size: 1.0rem;
+}
+
+#socmed p {
+    color: #EA1C2C;
+    font-size: 1.0rem;
+}
+
+#objectives {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+#objectivestitle {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.development_title {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.skills-bar-container {
+    position: relative;
+    margin: 0 auto;
+    width: 40%;
+    min-width: 350px;
+    top: 40%;
+    transform: translate(-50%, -50%) s;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.skills-bar-container li {
+    position: relative;
+    width: 100%;
+    padding: 2px 2px;
+}
+
+.progressbar-title {
+    color: #FF6347;
+}
+
+.progressbar-title h3 {
+    display: inline-block;
+    position: relative;
+    top: 17px;
+    color: #888;
+}
+
+.progressbar-title .percent {
+    position: absolute;
+    right: 2px;
+    top: 40px;
+}
+
+.bar-container {
+    background: #555;
+    position: relative;
+    width: 100%;
+    height: 10px;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: -15px;
+}
+
+.bar-container .progressbar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+.progresstomatoes {
+    background: #FF6347;
+}
+
+#progress-html {
+    animation-name: progress-html;
+    animation-delay: 0.7s;
+}
+
+#progress-css {
+    animation-name: progress-css;
+    animation-delay: 1.4s;
+}
+
+#progress-javascript {
+    animation-name: progress-javascript;
+    animation-delay: 2.1s;
+}
+
+#progress-php {
+    animation-name: progress-php;
+    animation-delay: 2.8s;
+}
+
+#progress-wordpress {
+    animation-name: progress-wordpress;
+    animation-delay: 3.5s;
+}
+
+#progress-bootstrap {
+    animation-name: progress-bootstrap;
+    animation-delay: 4.2s;
+}
+
+#progress-laravel {
+    animation-name: progress-laravel;
+    animation-delay: 4.9s;
+}
+
+@-webkit-keyframes progress-html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-moz-keyframes progress-html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-ms-keyframes progress-html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progress-html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-webkit-keyframes progress-css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-moz-keyframes progress-css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-ms-keyframes progress-css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progress-css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-webkit-keyframes progress-javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-moz-keyframes progress-javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-ms-keyframes progress-javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes progress-javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-webkit-keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+@-moz-keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+@-ms-keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+@keyframes progress-php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+@-webkit-keyframes progress-bootstrap {
+    0% {
+        width: 0%;
